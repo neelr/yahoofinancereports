@@ -1,0 +1,2 @@
+# Run the Java application every hour
+0 * * * * root java -cp /usr/src/app Test >> /var/log/cron.log 2>&1
